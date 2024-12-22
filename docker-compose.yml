@@ -9,5 +9,11 @@ services:
       - PUID=998
       - PGID=998
       - TZ=America/Chicago
-    ports:
-      - 8181:8181
+    #ports:
+      #- 8181:8181
+      
+      
+networks:
+  default:
+    external: true
+    name: tautulli
