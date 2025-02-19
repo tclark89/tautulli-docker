@@ -20,7 +20,7 @@ volumes:
     driver_opts:
       type: nfs
       o: addr=fileserver.tyler-clark.com,rw,vers=4.1
-      device: ":/srv/docker/tautulli/config"
+      device: ":/srv/docker/tautulli-docker/config"
   
 networks:
   tautulli:
