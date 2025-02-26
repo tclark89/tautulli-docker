@@ -19,8 +19,8 @@ volumes:
     driver: local
     driver_opts:
       type: nfs
-      o: addr=192.168.10.10,rw,vers=4.1
-      device: ":/srv/docker/tautulli-docker/config"
+      o: addr=192.168.10.20,rw,vers=4.1
+      device: ":/mnt/docker/tautulli-docker/config"
   
 networks:
   tautulli:
